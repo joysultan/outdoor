@@ -1,0 +1,167 @@
+body{
+    
+}
+
+.header{
+    background-image: url(images/pexels-tobias-bjørkli-2715012.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: .8;
+    background-attachment: fixed;
+}
+.menu{}
+.menu li a{
+    font-weight: 500px;
+    font-size: 18px;
+    color: white;
+    margin: 0 15px;
+    transition: .3s all ease-in;
+   
+}
+.menu li a:last-child{
+   
+}
+.menu li a:hover{
+    color: #FB2056 !important;
+}
+.nav-btn{
+    text-decoration: none;
+    color: white !important;
+    background-color: #FB2056 !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .3s all ease-in-out;
+}   
+
+.nav-btn:hover{
+    color: white !important;
+    background-color: #101415 !important;
+}
+.center-content{
+    padding-top: 200px;
+}
+.center-content h2{
+    color: white;
+    font-size: 45px;
+}
+hr{
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+    color: white;
+    
+    
+
+}
+.center-content h1{
+    margin-bottom: 25px;
+    color: white;
+    font-size: 50px;
+}
+
+/* center starat */
+.center{
+    background-color: aliceblue;
+}
+.center p{
+    font-size: 18px;
+    color: black;
+    
+
+}
+.center h6{
+    color: black;
+}
+.events-h1{
+    background-color: #FB2056;
+    color: white;
+}
+.event hr{
+    width: 60% !important;
+    color: #FB2056 !important;
+
+}
+
+/* center end */
+
+/* event-camp start */
+.event-camp{
+    padding-bottom: 40px;
+}
+.event-camp h4{
+    padding: 25px 0;
+}
+.event-camp p{
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom:30px;
+}
+.event-camp a{
+    /* text-decoration: none;
+    background-color: #FB2056;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px; */
+}
+/* event-camp end */
+
+/* explore start */
+.explore{
+    background-image: url(images/pexels-eric-sanman-1365425.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+    background-attachment: fixed;
+    opacity: .9;
+
+}
+.explore h2{
+    color: white;
+    font-size: 40px;
+
+}
+.explore p{
+    color: white;
+    padding-bottom:35px;
+    padding-top: 15px;
+    font-size: 17px;
+
+}
+/* explore end */
+/* tours start */
+.tours{
+    padding-top: 45px;
+    padding-bottom:45px;
+}
+.tours h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+.tours p{
+    font: 17px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom:25px
+}
+/* tours end */
+
+
+/* footer start */
+.f-all{
+    background-color: #191919;
+    padding: 140px;
+    color: white;
+   
+}
+.f-content p{
+    color: white;
+}
+.f-content h6{
+    color: white;
+}
+/* footer end */
